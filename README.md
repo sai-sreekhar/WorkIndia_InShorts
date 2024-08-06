@@ -9,7 +9,7 @@
 1. Clone the repo
 2. cd WorkIndia_InShorts
 3. Update DB username, password, IP and database in .env and start mysql server
-4. npm install
+4. npm i dotenv
 5. node index.js
 
 ## Demo
@@ -25,5 +25,18 @@
 
 ### Login User (Wrong password)
 <img width="702" alt="Screenshot 2024-08-06 at 10 43 08 AM" src="https://github.com/user-attachments/assets/ae7ddeed-c306-4d66-8a88-a1bf9744d2f2">
+
+### Admin add new post
+<img width="784" alt="Screenshot 2024-08-06 at 10 49 54 AM" src="https://github.com/user-attachments/assets/aaad9714-2231-4000-a76d-ea09256394b5">
+
+### Admin add new post (No API key)
+<img width="743" alt="Screenshot 2024-08-06 at 10 50 47 AM" src="https://github.com/user-attachments/assets/1e9e0eb3-e187-4d92-859a-8bcc42d70bc1">
+
+### Get shorts by user (Invalid token or no auth token)
+<img width="760" alt="Screenshot 2024-08-06 at 10 52 33 AM" src="https://github.com/user-attachments/assets/31a5de83-f10d-4537-bad1-9938a153ba22">
+
+### Get shorts by user (Valid token)
+<img width="852" alt="Screenshot 2024-08-06 at 10 53 25 AM" src="https://github.com/user-attachments/assets/e1c0df73-5d42-44be-95b3-abe2afae2b49">
+
 
 
