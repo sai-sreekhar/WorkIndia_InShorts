@@ -45,7 +45,7 @@ Note: I have comitted .env file also. But in actual it should not be comitted si
 <img width="852" alt="Screenshot 2024-08-06 at 10 53 25 AM" src="https://github.com/user-attachments/assets/e1c0df73-5d42-44be-95b3-abe2afae2b49">
 
 ### Get user feed based on filters and random text searches 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/b7444f0f-eb2a-415e-ba0b-5da22c6f2a95)
 
 
 
