@@ -12,6 +12,8 @@
 4. npm i dotenv
 5. node index.js
 
+Note: I have comitted .env file also. But in actual it should not be comitted since it has DB username and password
+
 ## Demo
 ### Register a User
 
