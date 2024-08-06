@@ -5,7 +5,7 @@ const authenticateToken = require('../middleware/authMiddleware');
 
 // Route to filter and search shorts
 router.get('/api/shorts/filter', authenticateToken, (req, res) => {
-    // Parse query parameter ⁠ query ⁠ which contains JSON string
+    // Parse query parameter query which contains JSON string
     let filterQuery;
     try {
         filterQuery = JSON.parse(req.query.query);
@@ -25,16 +25,16 @@ router.get('/api/shorts/filter', authenticateToken, (req, res) => {
     
     // Filter conditions
     if (filter) {
-        if (filter.category) conditions.push(⁠ category = '${filter.category}' ⁠);
-        if (filter.publish_date) conditions.push(⁠ publish_date >= '${filter.publish_date}' ⁠);
-        if (filter.upvote) conditions.push(⁠ upvote > ${filter.upvote} ⁠);
+        if (filter.category) conditions.push(`category = '${filter.category}'`);
+        if (filter.publish_date) conditions.push(`publish_date >= '${filter.publish_date}'`);
+        if (filter.upvote) conditions.push(`upvote > ${filter.upvote}`);
     }
 
     // Search conditions
     if (search) {
-        if (search.title) conditions.push(⁠ title LIKE '%${search.title}%' ⁠);
-        if (search.keyword) conditions.push(⁠ (title LIKE '%${search.keyword}%' OR content LIKE '%${search.keyword}%') ⁠);
-        if (search.author) conditions.push(⁠ author LIKE '%${search.author}%' ⁠);
+        if (search.title) conditions.push(`title LIKE '%${search.title}%'`);
+        if (search.keyword) conditions.push(`(title LIKE '%${search.keyword}%' OR content LIKE '%${search.keyword}%')`);
+        if (search.author) conditions.push(`author LIKE '%${search.author}%'`);
     }
 
     if (conditions.length > 0) {
