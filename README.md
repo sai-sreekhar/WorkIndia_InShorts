@@ -34,7 +34,11 @@ Note: I have comitted .env file also. But in actual it should not be comitted si
 ### Admin add new post (No API key)
 <img width="743" alt="Screenshot 2024-08-06 at 10 50 47 AM" src="https://github.com/user-attachments/assets/1e9e0eb3-e187-4d92-859a-8bcc42d70bc1">
 
-### Get shorts by user (Invalid token or no auth token)
+### Get shorts by user (No auth token)
+<img width="668" alt="Screenshot 2024-08-06 at 10 57 50 AM" src="https://github.com/user-attachments/assets/886b9d76-d0fa-4608-806f-054f1ce86ce8">
+
+
+### Get shorts by user (Invalid token )
 <img width="760" alt="Screenshot 2024-08-06 at 10 52 33 AM" src="https://github.com/user-attachments/assets/31a5de83-f10d-4537-bad1-9938a153ba22">
 
 ### Get shorts by user (Valid token)
